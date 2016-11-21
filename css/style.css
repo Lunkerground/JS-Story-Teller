@@ -1,0 +1,78 @@
+/* ----------< Polices >---------- */
+
+@font-face {
+	font-family: dearest;
+	src: url("../fonts/Dearest/Dearest.ttf");
+}
+
+/* ----------< Corps de page >---------- */
+
+body *{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/wallpaper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fond {
+	border-radius: 5px;
+	height: auto;
+	background-color: rgba(200, 200, 200, 0.25);
+	padding: 25px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+/* ----------< Titre >---------- */
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: dearest, Verdana;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+}
+
+/* ----------< Paragraphe >---------- */
+
+p {
+	font-family: sans-serif, Verdana;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	text-shadow:1px 1px 2px black;
+}
+
+.para {
+	margin-top: 10px;
+}
+
+/* ----------< Bouton >---------- */
+
+#bouton {
+	position: relative;
+	left: 46%;
+	width: 100px;
+	height: 50px;
+	margin-top: 25px;
+	font-family: Verdana;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px black;
+}
+
+/* ----------< Fin >---------- */
+
+#fin {
+	text-align: center;
+	font-family: dearest;
+	font-size: 50px;
+	color: white;
+	text-shadow:1px 1px 2px black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
